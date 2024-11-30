@@ -34,7 +34,8 @@ void loadExercises(const char* EXERCISEFILEPATH) {
     }
 
     // ToCode: to read a list of the exercises from the given file
-    while ( ) {
+    while (fscanf(file, "%s %d", exercise_list[MAX_EXERCISES].exercise_name, &exercise_list[MAX_EXERCISES].calories_burned_per_minute) ) //Import exercise names and calories burned per minute from the file
+	{
     	
         if (exercise_list_size >= MAX_EXERCISES){
         	break;
@@ -60,7 +61,6 @@ void inputExercise(HealthData* health_data) {
     
     // ToCode: to provide the options for the exercises to be selected
     printf("The list of exercises: \n");
-
 
     // ToCode: to enter the exercise to be chosen with exit option
 
