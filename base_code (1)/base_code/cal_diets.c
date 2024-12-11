@@ -86,6 +86,7 @@ void inputDiet(HealthData* health_data) {
 	 // If the number 0 is entered, it is processed in the previous if statement, so 0 is excluded from the condition. - MINSEO/ 2024.12.11
 	{
 		printf("[Error] Invalid choice. Please try again.\n");
+		//Statement output that informs incorrect input and prompts retries. - Minseo/ 2024.12.11
 	}
 	    
 
