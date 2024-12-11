@@ -70,6 +70,8 @@ void inputDiet(HealthData* health_data) {
     	printf("%d. %s (%d kcal)\n", i+1, diet_list[i].food_name, diet_list[i].calories_intake);
     	// Output of data for array index "(integer - List number, string - foodname, integer - calories information for current food) " Output in form - Minseo/ 2024.12.11
 	}
+	
+	printf("0. Exit\n");
     
     
 	// ToCode: to enter the diet to be chosen with exit option
