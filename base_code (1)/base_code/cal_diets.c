@@ -67,7 +67,7 @@ void inputDiet(HealthData* health_data) {
     for (i=0; i < diet_list_size; i++)
      // Run iterative loops to process all data sequentially. Processes from i=0 until less than diet_list_size - Minseo/ 2024.12.11
     {
-    	printf("%d. %s (%d kcal)\n", i+1, diet_list[i].food_name, diet_list[i].calories_intake);
+    	printf("%d. %s (%d kcal)\n", i, diet_list[i].food_name, diet_list[i].calories_intake);
     	 // Output of data for array index "(integer - List number, string - foodname, integer - calories information for current food) " Output in form - Minseo/ 2024.12.11
 	}
 	
@@ -85,6 +85,7 @@ void inputDiet(HealthData* health_data) {
 	 // The condition that the input is invalid when the number entered by the user is less than 1 or greater than the number in diet_list_size - Minseo/ 2024.12.11
 	 // If the number 0 is entered, it is processed in the previous if statement, so 0 is excluded from the condition. - MINSEO/ 2024.12.11
 	{
+		printf("[Error] Invalid choice. Please try again.\n");
 	}
 	    
 
