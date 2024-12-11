@@ -37,8 +37,8 @@ void loadDiets(const char* DIETFILEPATH)
 
      // ToCode: to read a list of the diets from the given file
     while (fscanf(file, "%s %d", diet_lsit[diet_list_size].food_name, &diet_list[diet_list_size].calories_intake) != EOF)
-    // Read the food name data as a string from the file and save it to diet_list[diet_list_size].food_name - Minseo/ 2024.12.11
-    // Read the calorie information in integer form from the file and save it to diet_list[diet_list_size].calories_intake - Minseo/ 2024.12.11
+     // Read the food name data as a string from the file and save it to diet_list[diet_list_size].food_name - Minseo/ 2024.12.11
+     // Read the calorie information in integer form from the file and save it to diet_list[diet_list_size].calories_intake - Minseo/ 2024.12.11
     
 	 {  diet_list_size++; // When a pair of data is read, it moves to the next index in the array. - Minseo/2024.12.11
     	
@@ -65,10 +65,10 @@ void inputDiet(HealthData* health_data) {
     // ToCode: to provide the options for the diets to be selected
     printf("The list of diets:\n");
     for (i=0; i < diet_list_size; i++)
-    // Run iterative loops to process all data sequentially. Processes from i=0 until less than diet_list_size - Minseo/ 2024.12.11
+     // Run iterative loops to process all data sequentially. Processes from i=0 until less than diet_list_size - Minseo/ 2024.12.11
     {
     	printf("%d. %s (%d kcal)\n", i+1, diet_list[i].food_name, diet_list[i].calories_intake);
-    	// Output of data for array index "(integer - List number, string - foodname, integer - calories information for current food) " Output in form - Minseo/ 2024.12.11
+    	 // Output of data for array index "(integer - List number, string - foodname, integer - calories information for current food) " Output in form - Minseo/ 2024.12.11
 	}
 	
 	printf("0. Exit\n"); // "0. Exit" Create exit options by printing exit options. - Minseo/ 2024.12.11
@@ -76,7 +76,8 @@ void inputDiet(HealthData* health_data) {
     
 	// ToCode: to enter the diet to be chosen with exit option
     printf("Select a diet by number: ");
-    // Select food by number - Minseo/ 2024.12.11
+     // Select food by number - Minseo/ 2024.12.11
+    
 
     // ToCode: to enter the selected diet in the health data
     
