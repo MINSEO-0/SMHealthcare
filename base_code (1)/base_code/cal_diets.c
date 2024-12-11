@@ -26,9 +26,11 @@ static int diet_list_size = 0;
     description : read the information in "diets.txt"
 */
 
-void loadDiets(const char* DIETFILEPATH) {
+void loadDiets(const char* DIETFILEPATH)
+{
     FILE *file = fopen(DIETFILEPATH, "r");
-    if (file == NULL) {
+    if (file == NULL) 
+	{
         printf("There is no file for diets! \n");
         return;
     }
@@ -40,7 +42,8 @@ void loadDiets(const char* DIETFILEPATH) {
     
 	 {  diet_list_size++; // When a pair of data is read, it moves to the next index in the array. - Minseo/2024.12.11
     	
-        if (diet_list_size >= MAX_DIETS){
+        if (diet_list_size >= MAX_DIETS)
+		{
         	break;
 		}
     }
