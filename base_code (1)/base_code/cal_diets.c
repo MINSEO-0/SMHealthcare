@@ -81,6 +81,11 @@ void inputDiet(HealthData* health_data) {
      //Read the entered numeric variable in integer form and sane it in the choice variable - Minseo/2024.12.11
     if (choice == 0)
 	    return;     // If the number entered by the user is 0, exit the selection and exit immediately - Minseo/ 2024.12.11
+	if (choice < 1 || choice > diet_list_size) 
+	 // The condition that the input is invalid when the number entered by the user is less than 1 or greater than the number in diet_list_size - Minseo/ 2024.12.11 
+	{
+	}
+	    
 
     // ToCode: to enter the selected diet in the health data
     
