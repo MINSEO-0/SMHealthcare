@@ -79,6 +79,8 @@ void inputDiet(HealthData* health_data) {
      // Select food by number - Minseo/ 2024.12.11
     scanf("%d", &choice);
      //Read the entered numeric variable in integer form and sane it in the choice variable - Minseo/2024.12.11
+    if (choice == 0)
+	    return;     // If the number entered by the user is 0, exit the selection and exit immediately - Minseo/ 2024.12.11
 
     // ToCode: to enter the selected diet in the health data
     
