@@ -65,7 +65,7 @@ void inputDiet(HealthData* health_data) {
     // ToCode: to provide the options for the diets to be selected
     printf("The list of diets:\n");
     for (i=0; i < diet_list_size; i++)
-    // Run iterative loops to process all data sequentially. Processes from i=0 until less than detail_list_size - Minseo/ 2024.12.11
+    // Run iterative loops to process all data sequentially. Processes from i=0 until less than diet_list_size - Minseo/ 2024.12.11
     {
 	}
     
