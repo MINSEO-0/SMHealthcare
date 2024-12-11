@@ -75,7 +75,8 @@ void inputDiet(HealthData* health_data) {
     
     
 	// ToCode: to enter the diet to be chosen with exit option
-    
+    printf("Select a diet by number: ");
+    // Select food by number - Minseo/ 2024.12.11
 
     // ToCode: to enter the selected diet in the health data
     
