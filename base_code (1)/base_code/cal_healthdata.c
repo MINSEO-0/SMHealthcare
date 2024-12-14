@@ -24,17 +24,22 @@
     			3. save the total remaining calrories
 */
 
-void saveData(const char* HEALTHFILEPATH, const HealthData* health_data) {
+void saveData(const char* HEALTHFILEPATH, const HealthData* health_data) 
+{
 	int i;
     FILE* file = fopen(HEALTHFILEPATH, "w");
-    if (file == NULL) {
+    if (file == NULL)
+	{
         printf("There is no file for health data.\n");
         return;
     }
 
     // ToCode: to save the chosen exercise and total calories burned 
     fprintf(file, "[Exercises] \n");
-    
+    for(i = 0; i < health_data->exercise_count; i++)
+     // Run iterative loops to process all data sequentially. Processes from i=0 until less than health_data->exercise_count - Minseo / 2024.12.15
+    {
+	}
     
     // ToCode: to save the chosen diet and total calories intake 
     fprintf(file, "\n[Diets] \n");
