@@ -97,7 +97,10 @@ void inputDiet(HealthData* health_data) {
     health_data->diet_count++;
 	 //Increase diet_count variable by 1 in health_data structure: increase number of indexes. - Minseo/ 2024.12.15 
 
+
     // ToCode: to enter the total calories intake in the health data
+    health_data->total_calories_intake += diet_list[choice].calories_intake;
+     //Calculate the final calories intake by adding the calories intake of the food entered by the user to the total_calories_intake variable in the health_data structure. - Minseo / 2024.12.15
 
 
 }
