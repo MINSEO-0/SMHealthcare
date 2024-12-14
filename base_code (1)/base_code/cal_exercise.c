@@ -89,7 +89,8 @@ void inputExercise(HealthData* health_data)
 	 // The condition that the input is invalid when the number entered by the user is less than 1 or greater than the number in exerxise_list_size - Minseo / 2024.12.15
 	 // If the number 0 is entered, it is processed in the previous if statement, so 0 is excluded from the condition. - Minseo / 2024.12.15
 	{
-	 	
+		printf("[Error] Invalid choice. Please try again.\n");
+		return;      // Statement output that informs incorrect input and prompts retries. - Minseo / 2024.12.15
 	}  
 
  
