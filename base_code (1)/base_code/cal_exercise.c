@@ -26,15 +26,20 @@ int exercise_list_size = 0;
     description : read the information in "excercises.txt"
 */
 
-void loadExercises(const char* EXERCISEFILEPATH) {
+void loadExercises(const char* EXERCISEFILEPATH) 
+{
     FILE *file = fopen(EXERCISEFILEPATH, "r");
-    if (file == NULL) {
+    if (file == NULL) 
+	{
         printf("There is no file for exercises! \n");
         return;
     }
 
     // ToCode: to read a list of the exercises from the given file
-    while () 
+    while (fscanf(file, "%s %d", exercise_list[exercise_list_size].exercise_name, &exercise_list[exercise_list_size].calories_burned_per_minute) != EOF)
+     //Read the exercise_name data as a string from the file and save it to exercise_list[exercise_list_size].exercise_name - Minseo / 2024.12.15
+	{
+    }
 		{
     	
         if (exercise_list_size >= MAX_EXERCISES){
