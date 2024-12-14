@@ -108,7 +108,6 @@ void inputExercise(HealthData* health_data)
 	health_data->exercise_count++;
 	 //Increase exercise_count variable by 1 in health_data structure: increase number of indexes. - Minseo / 2024.12.15
 	health_data->total_calories_burned += calories_burned;
-	 // Calculate the final calories burned by adding the calories_burned to the total_calories_burned  variable in the health data structure - Minseo / 2024.12.15  
-    
+	 // Calculate the final calories burned by adding the calories_burned to the total_calories_burned  variable in the health data structure - Minseo / 2024.12.15
 
 }
