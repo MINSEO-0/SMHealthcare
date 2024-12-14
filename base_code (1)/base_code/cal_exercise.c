@@ -80,7 +80,9 @@ void inputExercise(HealthData* health_data)
 
     // ToCode: to enter the exercise to be chosen with exit option
     printf("Select an exercise by number: ");
-     // Select exercise by number - Minseo / 2024.12.15 
+     // Select exercise by number - Minseo / 2024.12.15
+	scanf("%d", &choice);
+	 //Read the entered numeric variable in the integer form and save it in the choice variable - Minseo / 2024.12.15  
 
  
     
