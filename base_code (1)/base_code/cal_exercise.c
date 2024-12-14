@@ -79,6 +79,8 @@ void inputExercise(HealthData* health_data)
     
 
     // ToCode: to enter the exercise to be chosen with exit option
+    printf("Select an exercise by number: ");
+     // Select exercise by number - Minseo / 2024.12.15 
 
  
     
