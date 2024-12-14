@@ -94,6 +94,8 @@ void inputDiet(HealthData* health_data) {
     // ToCode: to enter the selected diet in the health data
     health_data->diet[health_data->diet_count] = diet_list[choice];
      //Specify an index to store the content by pointing to the diet_count variable in the health_data structure in the diet array in the health_data structure. - Minseo/ 2024.12.15
+    health_data->diet_count++;
+	 //Increase diet_count variable by 1 in health_data structure: increase number of indexes. - Minseo/ 2024.12.15 
 
     // ToCode: to enter the total calories intake in the health data
 
