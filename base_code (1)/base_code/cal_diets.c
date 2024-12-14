@@ -92,6 +92,7 @@ void inputDiet(HealthData* health_data) {
 	    
 
     // ToCode: to enter the selected diet in the health data
+    health_data->diet[health_data->diet_count] = diet_list[choice];
     
 
     // ToCode: to enter the total calories intake in the health data
