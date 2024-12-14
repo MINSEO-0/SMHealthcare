@@ -101,6 +101,8 @@ void inputDiet(HealthData* health_data) {
     // ToCode: to enter the total calories intake in the health data
     health_data->total_calories_intake += diet_list[choice].calories_intake;
      //Calculate the final calories intake by adding the calories intake of the food entered by the user to the total_calories_intake variable in the health_data structure. - Minseo / 2024.12.15
+    printf("You comsumed %d kcal from %s.\n", diet_list[choice].calories_intake, diet_list[choice].food_name);
+	 //Calories intake from the selected food in the food list is displayed on the screen. - Minseo / 2024.12.15
 
 
 }
