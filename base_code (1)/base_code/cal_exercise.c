@@ -100,6 +100,7 @@ void inputExercise(HealthData* health_data)
     scanf("%d", &duration);
 
     // ToCode: to enter the selected exercise and total calcories burned in the health data
+    int calories_burned;  // Declaration of Variables - Minseo / 2024.12.15
     
 
 }
