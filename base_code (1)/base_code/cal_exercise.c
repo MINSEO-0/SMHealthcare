@@ -106,7 +106,9 @@ void inputExercise(HealthData* health_data)
     health_data->exercises[health_data->exercise_count] = exercise_list[choice];
 	 //Specify an index to store the content by pointing to the exercise_count variable in the health_data structure in the exercises array in the health_data structure. - Minseo / 2024.12.15
 	health_data->exercise_count++;
-	 //Increase exercise_count variable by 1 in health_data structure: increase number of indexes. - Minseo / 2024.12.15  
+	 //Increase exercise_count variable by 1 in health_data structure: increase number of indexes. - Minseo / 2024.12.15
+	health_data->total_calories_burned += calories_burned;
+	 // Calculate the final calories burned by adding the calories_burned to the total_calories_burned  variable in the health data structure - Minseo / 2024.12.15  
     
 
 }
