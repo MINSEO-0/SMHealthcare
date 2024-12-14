@@ -101,6 +101,8 @@ void inputExercise(HealthData* health_data)
 
     // ToCode: to enter the selected exercise and total calcories burned in the health data
     int calories_burned;  // Declaration of Variables - Minseo / 2024.12.15
+    calories_burned = exercise_list[choice].calories_burned_per_minute * duration;
+     //Calculate the total calories burned by multiplying the calories burned per minute for the exercise type selected by the user by the duration entered by the user. - Minseo / 2024.12.15
     
 
 }
