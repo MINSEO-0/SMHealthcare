@@ -38,6 +38,7 @@ void loadExercises(const char* EXERCISEFILEPATH)
     // ToCode: to read a list of the exercises from the given file
     while (fscanf(file, "%s %d", exercise_list[exercise_list_size].exercise_name, &exercise_list[exercise_list_size].calories_burned_per_minute) != EOF)
      //Read the exercise_name data as a string from the file and save it to exercise_list[exercise_list_size].exercise_name - Minseo / 2024.12.15
+     //Read the calorie information in integer form from the file and save it to exercise_list[exercise_list_size].calories_burned_per_minute. - Minseo / 2024.12.15
 	{
     }
 		{
