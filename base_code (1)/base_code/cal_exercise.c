@@ -103,6 +103,8 @@ void inputExercise(HealthData* health_data)
     int calories_burned;  // Declaration of Variables - Minseo / 2024.12.15
     calories_burned = exercise_list[choice].calories_burned_per_minute * duration;
      //Calculate the total calories burned by multiplying the calories burned per minute for the exercise type selected by the user by the duration entered by the user. - Minseo / 2024.12.15
+    health_data->exercises[health_data->exercise_count] = exercise_list[choice];
+	 //Specify an index to store the content by pointing to the exercise_count variable in the health_data structure in the exercises array in the health_data structure. - Minseo / 2024.12.15 
     
 
 }
