@@ -42,7 +42,8 @@ void loadExercises(const char* EXERCISEFILEPATH)
      
 	{ exercise_list_size++;  // When a pair of data is read, it moves to the next index the array. - Minseo / 2024.12.15
     	
-        if (exercise_list_size >= MAX_EXERCISES){
+        if (exercise_list_size >= MAX_EXERCISES)
+		{
         	break;
 		}
     }
@@ -61,12 +62,18 @@ void loadExercises(const char* EXERCISEFILEPATH)
     			3. enter the selected exercise and the total calories burned in the health data
 */
 
-void inputExercise(HealthData* health_data) {
+void inputExercise(HealthData* health_data)
+{
     int choice, duration, i;
     
     // ToCode: to provide the options for the exercises to be selected
     printf("The list of exercises: \n");
-
+    for(i=0; i < exercise_list_size; i++)
+     //Run iterative loops to process all data sequentially. Processes from i=0 until less than exercise_list_size - Minseo / 2024.12.15 
+    {
+    	
+	}
+    
 
     // ToCode: to enter the exercise to be chosen with exit option
 
