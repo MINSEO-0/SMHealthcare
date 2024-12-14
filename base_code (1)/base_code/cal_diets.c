@@ -89,6 +89,7 @@ void inputDiet(HealthData* health_data)
 	{
 		printf("[Error] Invalid choice. Please try again.\n");
 		//Statement output that informs incorrect input and prompts retries. - Minseo/ 2024.12.11
+		return;
 	}
 	    
 
