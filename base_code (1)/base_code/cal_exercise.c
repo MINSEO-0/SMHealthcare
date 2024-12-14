@@ -109,5 +109,10 @@ void inputExercise(HealthData* health_data)
 	 //Increase exercise_count variable by 1 in health_data structure: increase number of indexes. - Minseo / 2024.12.15
 	health_data->total_calories_burned += calories_burned;
 	 // Calculate the final calories burned by adding the calories_burned to the total_calories_burned  variable in the health data structure - Minseo / 2024.12.15
+    
+    
+	printf("You burned %d kcal by %s for %d minutes.\n", calories_burned, exercise_list[choice].exercise_name, duration);
+	 // Calories burned in the exercise selected by the user are displayed in integer type, exercise name is displayed in string type, and duration is displayed in integer type. - Minseo / 2024.12.15	    
+
 
 }
