@@ -74,6 +74,8 @@ void inputExercise(HealthData* health_data)
     	printf("%d. %s (%d kcal\min)\n", i, exercise_list[i].exercise_name, exercise_list[i].calories_burned_per_minute);
     	 // Output of data for array index "(integer - list numbeer, string - exercise_name, integer - calories_burned_per_minute information for current exercise)" Output in form - Minseo / 2024.12.15 
 	}
+	printf("0. Exit\n");
+	 //"0. Exit" create exit options by printing exit options. - Minseo / 2024.12.15
     
 
     // ToCode: to enter the exercise to be chosen with exit option
