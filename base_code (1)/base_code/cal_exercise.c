@@ -85,6 +85,11 @@ void inputExercise(HealthData* health_data)
 	 //Read the entered numeric variable in the integer form and save it in the choice variable - Minseo / 2024.12.15  
 	if(choice == 0)
 	  return;       // If the number entered by the user is 0, exit the selection and exit immediately - Minseo / 2024.12.15
+	if(choice < 1 || choice > exercise_list_size)
+	 // The condition that the input is invalid when the number entered by the user is less than 1 or greater than the number in exerxise_list_size - Minseo / 2024.12.15
+	{
+	 	
+	}  
 
  
     
