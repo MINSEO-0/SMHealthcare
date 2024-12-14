@@ -41,9 +41,6 @@ void loadExercises(const char* EXERCISEFILEPATH)
      //Read the calorie information in integer form from the file and save it to exercise_list[exercise_list_size].calories_burned_per_minute. - Minseo / 2024.12.15
      
 	{ exercise_list_size++;  // When a pair of data is read, it moves to the next index the array. - Minseo / 2024.12.15
-	
-    }
-		{
     	
         if (exercise_list_size >= MAX_EXERCISES){
         	break;
