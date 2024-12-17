@@ -42,7 +42,7 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
     	fprintf(file, "%s - %d kcal\n", health_data->exercises[i].exercise_name, health_data->exercises[i].calories_burned_per_minute);
 		 //Retrieves the exercise name from the exercise array in the health_data structure and the calories burned per minute information from the exercise array in the health_data structure and written to a file. - Minseo / 2024.12.18 
 	}
-	
+	fprintf(file, "Total calories burned: %d kcal\n", healt_data->total_calories_burned);
 	
     
     // ToCode: to save the chosen diet and total calories intake 
