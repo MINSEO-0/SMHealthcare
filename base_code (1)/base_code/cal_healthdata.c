@@ -54,6 +54,8 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
     	fprintf(file, "%s - %d kcal\n", health_data->diet[i].food_name, health_data->diet[i].calories_intake);
     	 //Retrieves the diets name from the diet array in the health_data structure and the calories_intake information from the diet array in the health_data structure and written to a file. - Minseo / 2024.12.18
 	}
+	fprintf(file, "Total calories intake: %d kcal\n", health_data->total_calories_intake);
+	 //Take the total_calories_intake variable from the health_data structure and log the total calories intake and kcal to a file - Minseo / 2024.12.18
 
 
 
