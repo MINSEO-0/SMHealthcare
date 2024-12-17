@@ -139,6 +139,9 @@ void printHealthData(const HealthData* health_data) {
     else if(remaining_calories < 0) // When remaining_calories are less than 0 - Minseo / 2024.12.18
      // Use an else if statement because three things can happen - Minseo / 2024.12.18
      // 0, if less than 0, if greater than 0 - Minseo / 2024.12.18
-    
+    {
+    	printf("[Warning] Too few calories!\n");
+    	 // Displays too few caloried on the screen - Minseo / 2024.12.18
+	}
 	printf("=======================================================================\n");
 }
