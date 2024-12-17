@@ -24,7 +24,7 @@ int main() {
     HealthData health_data = {0};
     
     // Tocode: to read the list of the exercises and diets
-    
+     //Import data from external files - Minseo / 2024.12.18
 
     // ToCode: to run the "Healthcare Management Systems" until all calories are used up or the user wants to exit the system
     do {
@@ -41,7 +41,8 @@ int main() {
              // If the remaining calories are 0, the program ends immediately. - Minseo / 2024.12.18
 		} 
 		
-		else{
+		else
+		{
 			printf("\n=======================================================================\n");
         	printf("[Healthcare Management Systems] \n");
         	printf("1. Exercise \n");
