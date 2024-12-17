@@ -26,7 +26,9 @@ int main() {
     // Tocode: to read the list of the exercises and diets
      //Import data from external files - Minseo / 2024.12.18
     loadExercises(EXERCISEFILEPATH);
-	 // Import exercise data from external files. - Minseo / 2024.12.18 
+	 // Import exercise data from external files. - Minseo / 2024.12.18
+	loadDiets(DOETFILEPATH);
+	 //Import diets data from external files. - Minseo / 2024.12.18  
 
     // ToCode: to run the "Healthcare Management Systems" until all calories are used up or the user wants to exit the system
     do {
