@@ -88,7 +88,7 @@ void printHealthData(const HealthData* health_data) {
 	
 	// ToCode: to print out the saved history of exercises
 	printf("=========================== History of Exercise =======================\n");
-  
+     //Repeated output of all data from history of exercises - Minseo / 2024.12.18
   
     printf("=======================================================================\n");
 
