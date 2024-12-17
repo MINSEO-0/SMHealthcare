@@ -98,6 +98,7 @@ void printHealthData(const HealthData* health_data) {
   
     printf("=======================================================================\n");
 
+
     // ToCode: to print out the saved history of diets
     printf("============================= History of Diet =========================\n");
      //Repeated output of all data from history of diet - Minseo / 2024.12.18
@@ -110,6 +111,7 @@ void printHealthData(const HealthData* health_data) {
 
 
     printf("=======================================================================\n");
+
 
 
 	// ToCode: to print out the saved history of calories including basal metabolic rate, 
