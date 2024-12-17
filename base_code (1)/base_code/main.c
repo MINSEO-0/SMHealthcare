@@ -19,7 +19,8 @@
 
 static int choice;
 
-int main() {
+int main() 
+{
 	// To initialize the health data object
     HealthData health_data = {0};
     
@@ -31,7 +32,8 @@ int main() {
 	 //Import diets data from external files. - Minseo / 2024.12.18  
 
     // ToCode: to run the "Healthcare Management Systems" until all calories are used up or the user wants to exit the system
-    do {
+    do 
+	{
     	int remaining_calories;        // Specify remaining_calories variable - Minseo / 2024.12.18
         remaining_calories = health_data->total_calories_intake - BASAL_METABOLIC_RATE - health_data->total_calories_burned;
          // How to calculate remaining calories - Minseo / 2024.12.18
@@ -59,7 +61,8 @@ int main() {
         }
         
 		// ToCode: to run the sysmtem based on the user's choice
-        switch (choice) {
+        switch (choice)
+		 {
             case 1:
             	
                 break;
@@ -82,7 +85,7 @@ int main() {
                 printf("[Error] Invalid option. \n");
                 printf("Please try again! \n");
         }
-    } while ( );
+    } while (choice != 4);
 
     return 0;
 }
