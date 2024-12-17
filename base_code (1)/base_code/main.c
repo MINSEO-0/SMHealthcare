@@ -37,6 +37,7 @@ int main() {
 		{
             printf("You have consumed all your calories for today! \n");
              // Displays on the screen that all calories for today have been consumed - Minseo / 2024.12.18
+            break; 
 		} 
 		else{
 			printf("\n=======================================================================\n");
