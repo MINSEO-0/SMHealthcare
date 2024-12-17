@@ -117,6 +117,12 @@ void printHealthData(const HealthData* health_data) {
 	// ToCode: to print out the saved history of calories including basal metabolic rate, 
 	// total calories burned, total calories intake, and the remaining calories
 	printf("============================== Total Calories =========================\n");
+	
+	int remaining_calories;        // Specify remaining_calories variable - Minseo / 2024.12.18
+    remaining_calories = health_data->total_calories_intake - BASAL_METABOLIC_RATE - health_data->total_calories_burned;
+     // How to calculate remaining calories - Minseo / 2024.12.18
+     // The remaining calories are calculated as tatal_calories_intake - BASAL_METABOLIC_RATE - total_calories_burned - Minseo / 2024.12.18
+	
 	printf("Basal metabolic rate: %d kcal\n", BASAL_METABOLIC_RATE);
 	 // Displays basal metabolic rate on screen in integer format - Minseo / 2024.12.18
 	printf("Total calories burned: %d kcal\n", health_data->total_calories_burned);
