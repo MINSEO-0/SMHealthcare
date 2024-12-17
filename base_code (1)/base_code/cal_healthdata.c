@@ -45,8 +45,14 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
 	fprintf(file, "Total calories burned: %d kcal\n", healt_data->total_calories_burned);
 	 // Take the total_calories_burned variable from the health_data structure and log the total calories burned to a file. - Minseo / 2024.12.18
     
+    
     // ToCode: to save the chosen diet and total calories intake 
     fprintf(file, "\n[Diets] \n");
+    for(i = 0; i < health_data->diet_count; i++)
+     // Run iterative loops to process all data sequentially. Processes from i=0 until less than health_data->diet_count(number of diets) - Minseo / 2024.12.18
+	{	
+    	
+	}
 
 
 
