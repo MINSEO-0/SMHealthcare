@@ -102,6 +102,7 @@ void printHealthData(const HealthData* health_data) {
     printf("============================= History of Diet =========================\n");
      //Repeated output of all data from history of diet - Minseo / 2024.12.18
     for(i = 0; i < health_data->diet_count; i++)
+     // Run iterative loops to process all data sequentially. Processes from i=0 until less than health_data->diet_count(number of diets) - Minseo / 2024.12.18
 	{
 	} 
 
