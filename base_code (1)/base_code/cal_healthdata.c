@@ -64,6 +64,9 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
     remaining_calories = health_data->total_calories_intake - BASAL_METABOLIC_RATE - health_data->total_calories_burned;
      // How to calculate remaining calories - Minseo / 2024.12.18
      // The remaining calories are calculated as tatal_calories_intake - BASAL_METABOLIC_RATE - total_calories_burned - Minseo / 2024.12.18
+    fprintf(file, "Basal metabolic rate: %d kcal\n", BASAL_METABOLIC_RATE);
+	 // Record basal metabolic rate in integer format to file - Minseo / 2024.12.18 
+     
     
 }
 
