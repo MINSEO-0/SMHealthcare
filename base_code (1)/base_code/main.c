@@ -59,6 +59,7 @@ int main()
         	printf("4. Exit \n");
         	printf("Select the desired number: ");
         	
+        	 //An infinte loop occurs because no limit is set on the input value - Minseo / 2024.12.18
         	while(scanf("%d", &choice) != 1)
         	 //Repeat input conditions until an integer is entered - Minseo / 2024.12.18
         	{
