@@ -105,8 +105,9 @@ void inputExercise(HealthData* health_data)
     calories_burned = exercise_list[choice - 1].calories_burned_per_minute * duration;
      //Calculate the total calories burned by multiplying the calories burned per minute for the exercise type selected by the user by the duration entered by the user. - Minseo / 2024.12.15
      // To get the index of the number selected by the user, use 'choice -1' - Minseo / 2024.12.18 
-    health_data->exercises[health_data->exercise_count] = exercise_list[choice];
+    health_data->exercises[health_data->exercise_count] = exercise_list[choice - 1];
 	 //Specify an index to store the content by pointing to the exercise_count variable in the health_data structure in the exercises array in the health_data structure. - Minseo / 2024.12.15
+	 // To get the index of the number selected by the user, use 'choice -1' - Minseo / 2024.12.18  
 	health_data->exercise_count++;
 	 //Increase exercise_count variable by 1 in health_data structure: increase number of indexes. - Minseo / 2024.12.15
 	health_data->total_calories_burned += calories_burned;
