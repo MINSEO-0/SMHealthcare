@@ -38,6 +38,7 @@ int main()
         remaining_calories = health_data.total_calories_intake - BASAL_METABOLIC_RATE - health_data.total_calories_burned;
          // How to calculate remaining calories - Minseo / 2024.12.18
          // The remaining calories are calculated as tatal_calories_intake - BASAL_METABOLIC_RATE - total_calories_burned - Minseo / 2024.12.18
+         // Unless health_data is declared as a structure pointer, here it is a regular structure variable. - Minseo / 2024.12.18
     		
     	if (remaining_calories == 0) // When remaining_calories are 0 - Minseo / 2024.12.18
 		{
