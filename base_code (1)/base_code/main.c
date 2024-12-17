@@ -37,8 +37,10 @@ int main() {
 		{
             printf("You have consumed all your calories for today! \n");
              // Displays on the screen that all calories for today have been consumed - Minseo / 2024.12.18
-            break; 
+            break;
+             // If the remaining calories are 0, the program ends immediately. - Minseo / 2024.12.18
 		} 
+		
 		else{
 			printf("\n=======================================================================\n");
         	printf("[Healthcare Management Systems] \n");
