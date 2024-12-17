@@ -61,7 +61,8 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
     // ToCode: to save the total remaining calories
     fprintf(file, "\n[Total] \n");
     int remaining_calories;        // Specify remaining_calories variable - Minseo / 2024.12.18
-    remaining_calories = health_data->total_calories_intake - 
+    remaining_calories = health_data->total_calories_intake - BASAL_METABOLIC_RATE - health_data->total_calories_burned;
+     // How to calculate remaining calories - Minseo / 2024.12.18
     
 }
 
