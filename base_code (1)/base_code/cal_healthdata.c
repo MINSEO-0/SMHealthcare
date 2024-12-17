@@ -119,6 +119,8 @@ void printHealthData(const HealthData* health_data) {
 	printf("============================== Total Calories =========================\n");
 	printf("Basal metabolic rate: %d kcal\n", BASAL_METABOLIC_RATE);
 	 // Displays basal metabolic rate on screen in integer format - Minseo / 2024.12.18
+	printf("Total calories burned: %d kcal\n", health_data->total_calories_burned);
+	 // Displays the total calories burned variable in the health_data structure on the screen in integer form - Minseo / 2024.12.18
  
  
     printf("=======================================================================\n \n");
