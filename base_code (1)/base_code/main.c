@@ -67,6 +67,7 @@ int main()
             case 1:
             	inputExercise(&health_data);
             	 //Receive exercise data and write it to the structure - Minseo / 2024.12.18
+            	 // & is necessary because the memory address of the structure needs to be passed to the function - Minseo / 2024.12.18
                 break;
                 
             case 2:
