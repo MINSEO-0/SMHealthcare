@@ -83,7 +83,9 @@ int main()
                 break;
                 
             case 4:
-            	 //The data entered by the user must be saved before ending the program - Minseo / 2024.12.18 
+            	 //The data entered by the user must be saved before ending the program - Minseo / 2024.12.18
+            	saveData(HEALTHFILEPATH, &health_data);
+				 // Save entered data such as diet and exercise to a file - Minseo / 2024.12.18
     			printf("Exit the system.\n");
     			printf("=======================================================================\n");
                 break;
