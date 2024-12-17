@@ -71,6 +71,7 @@ int main()
                 break;
                 
             case 2:
+            	inputDiet(&health_data);
             	
                 break;
                 
