@@ -67,9 +67,10 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
     fprintf(file, "Basal metabolic rate: %d kcal\n", BASAL_METABOLIC_RATE);
 	 // Record basal metabolic rate in integer format to file - Minseo / 2024.12.18
 	fprintf(file, "The remaining calories: %d kcal\n", remaining_calories);
-	 // Record the remaining calories in integer format to file - Minseo / 2024.12.18  
-     
-    
+	 // Record the remaining calories in integer format to file - Minseo / 2024.12.18
+	 
+	fclose(file);   
+     // Close the file to finally save the data in the file - Minseo/ 2024.12.18
 }
 
 /*
