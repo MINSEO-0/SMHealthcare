@@ -28,14 +28,14 @@ int main()
      //Import data from external files - Minseo / 2024.12.18
     loadExercises(EXERCISEFILEPATH);
 	 // Import exercise data from external files. - Minseo / 2024.12.18
-	loadDiets(DOETFILEPATH);
+	loadDiets(DIETFILEPATH);
 	 //Import diets data from external files. - Minseo / 2024.12.18  
 
     // ToCode: to run the "Healthcare Management Systems" until all calories are used up or the user wants to exit the system
     do 
 	{
     	int remaining_calories;        // Specify remaining_calories variable - Minseo / 2024.12.18
-        remaining_calories = health_data->total_calories_intake - BASAL_METABOLIC_RATE - health_data->total_calories_burned;
+        remaining_calories = health_data.total_calories_intake - BASAL_METABOLIC_RATE - health_data.total_calories_burned;
          // How to calculate remaining calories - Minseo / 2024.12.18
          // The remaining calories are calculated as tatal_calories_intake - BASAL_METABOLIC_RATE - total_calories_burned - Minseo / 2024.12.18
     		
@@ -64,6 +64,7 @@ int main()
         switch (choice)
 		 {
             case 1:
+            	inputExercise(&health_data);
             	
                 break;
                 
