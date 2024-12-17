@@ -67,6 +67,8 @@ int main()
         	{
         		printf("Please enter the number key. \n");
         		 //prints a message asking you to press a number key - Minseo / 2024.12.18
+        		while(getchar() != '\n');
+				 
 			}
 			
         	printf("=======================================================================\n");
