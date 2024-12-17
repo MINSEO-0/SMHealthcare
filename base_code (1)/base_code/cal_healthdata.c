@@ -58,10 +58,9 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
 	 //Take the total_calories_intake variable from the health_data structure and log the total calories intake and kcal to a file - Minseo / 2024.12.18
 
 
-
-    // ToCode: to save the total remaining calrories
+    // ToCode: to save the total remaining calories
     fprintf(file, "\n[Total] \n");
-    
+    int remaining_calories; 
     
 }
 
