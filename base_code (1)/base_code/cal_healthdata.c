@@ -105,6 +105,7 @@ void printHealthData(const HealthData* health_data) {
      // Run iterative loops to process all data sequentially. Processes from i=0 until less than health_data->diet_count(number of diets) - Minseo / 2024.12.18
 	{
 		printf("%s - %d kcal\n", health_data->diet[i].food_name, health_data->diet[i].calories_intake);
+		 //Displays the diet name in the diet array of the health_data structure and the calories intake information in the diet array of the health_data structure to the screen - Minseo / 2024.12.18
 	} 
 
 
