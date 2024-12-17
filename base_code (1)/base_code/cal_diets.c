@@ -36,9 +36,9 @@ void loadDiets(const char* DIETFILEPATH)
     }
 
      // ToCode: to read a list of the diets from the given file
-    while (fscanf(file, "%s %d", diet_list[diet_list_size].food_name, &diet_list[diet_list_size].calories_intake) != EOF)
-     // Read the food name data as a string from the file and save it to diet_list[diet_list_size].food_name - Minseo/ 2024.12.11
-     // Read the calorie information in integer form from the file and save it to diet_list[diet_list_size].calories_intake - Minseo/ 2024.12.11
+     while (fscanf(file, "%s %d", diet_list[diet_list_size].food_name, &diet_list[diet_list_size].calories_intake) != EOF)
+      // Read the food name data as a string from the file and save it to diet_list[diet_list_size].food_name - Minseo/ 2024.12.11
+      // Read the calorie information in integer form from the file and save it to diet_list[diet_list_size].calories_intake - Minseo/ 2024.12.11
     
 	 {  diet_list_size++; // When a pair of data is read, it moves to the next index in the array. - Minseo/2024.12.11
     	
