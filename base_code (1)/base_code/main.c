@@ -86,6 +86,7 @@ int main()
                 printf("Please try again! \n");
         }
     } while (choice != 4);
+       //Repeat the conditional statement until exit option 4 is not clicked - Minseo / 2024.12.18
 
     return 0;
 }
