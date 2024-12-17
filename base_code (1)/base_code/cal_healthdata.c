@@ -51,7 +51,8 @@ void saveData(const char* HEALTHFILEPATH, const HealthData* health_data)
     for(i = 0; i < health_data->diet_count; i++)
      // Run iterative loops to process all data sequentially. Processes from i=0 until less than health_data->diet_count(number of diets) - Minseo / 2024.12.18
 	{	
-    	
+    	fprintf(file, "%s - %d kcal\n", health_data->diet[i].food_name, health_data->diet[i].calories_intake);
+    	 //Retrieves the diets name from the diet array in the health_data structure and the calories_intake information from the diet array in the health_data structure and written to a file. - Minseo / 2024.12.18
 	}
 
 
