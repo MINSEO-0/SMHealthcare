@@ -71,8 +71,9 @@ void inputExercise(HealthData* health_data)
     for(i=0; i < exercise_list_size; i++)
      //Run iterative loops to process all data sequentially. Processes from i=0 until less than exercise_list_size - Minseo / 2024.12.15 
     {
-    	printf("%d. %s (%d kcal/min)\n", i, exercise_list[i].exercise_name, exercise_list[i].calories_burned_per_minute);
+    	printf("%d. %s (%d kcal/min)\n", i + 1 , exercise_list[i].exercise_name, exercise_list[i].calories_burned_per_minute);
     	 // Output of data for array index "(integer - list numbeer, string - exercise_name, integer - calories_burned_per_minute information for current exercise)" Output in form - Minseo / 2024.12.15 
+         // To display list numbers starting from 1, add 1 to i, which represents the index, and output it as i+1 - Minseo / 2024.12.18
 	}
 	printf("0. Exit\n");
 	 //"0. Exit" create exit options by printing exit options. - Minseo / 2024.12.15
