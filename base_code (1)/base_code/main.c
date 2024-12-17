@@ -69,6 +69,7 @@ int main()
         		 //prints a message asking you to press a number key - Minseo / 2024.12.18
         		while(getchar() != '\n');
 				 //The process of enptying data in the input buffer - Minseo / 2024.12.18
+				 //Process required to receive the next input - Minseo / 2024.12.18
 			}
 			
         	printf("=======================================================================\n");
