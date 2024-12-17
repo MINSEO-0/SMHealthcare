@@ -133,6 +133,8 @@ void printHealthData(const HealthData* health_data) {
 	// ToCode: to print out the recommendtaion depending on the current total calories burned and intake
 	if(remaining_calories == 0)  // When remaining_calories are 0 - Minseo / 2024.12.18
 	{
+		printf("You have consumed all your calories for today!\n");
+		 // Displays on the screen that all calories for today have been consumed - Minseo / 2024.12.18
 	}   
     
     
