@@ -86,6 +86,7 @@ int main()
             	 //The data entered by the user must be saved before ending the program - Minseo / 2024.12.18
             	saveData(HEALTHFILEPATH, &health_data);
 				 // Save entered data such as diet and exercise to a file - Minseo / 2024.12.18
+				 // Use & to save data in the health_data structure to HEALTHFILEPATH - Minseo / 2024.12.18
     			printf("Exit the system.\n");
     			printf("=======================================================================\n");
                 break;
