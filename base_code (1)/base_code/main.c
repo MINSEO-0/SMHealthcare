@@ -30,6 +30,10 @@ int main() {
     do {
     	int remaining_calories;        // Specify remaining_calories variable - Minseo / 2024.12.18
         remaining_calories = health_data->total_calories_intake - BASAL_METABOLIC_RATE - health_data->total_calories_burned;
+         // How to calculate remaining calories - Minseo / 2024.12.18
+         // The remaining calories are calculated as tatal_calories_intake - BASAL_METABOLIC_RATE - total_calories_burned - Minseo / 2024.12.18
+    	
+    	
     	
     	if ( ){
             printf("You have consumed all your calories for today! \n");
