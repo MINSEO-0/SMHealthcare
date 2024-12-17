@@ -147,6 +147,8 @@ void printHealthData(const HealthData* health_data) {
 	
 	else  // If both conditions above are not satisfied - Minseo / 2024.12.18
 	{
+		printf("Please exercise for your health!\n");
+		 //Displays exercise prompts on screen - Minseo / 2024.12.18
 	}
 	
 	printf("=======================================================================\n");
