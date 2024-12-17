@@ -72,6 +72,7 @@ void inputDiet(HealthData* health_data)
     	 // Output of data for array index "(integer - List number, string - foodname, integer - calories information for current food) " Output in form - Minseo/ 2024.12.11
     	 // For statement i is a variable representing the number of the list, so write i rather than i+1 - Minseo/ 2024.12.11
     	 // The above sentence is incorrect - Minseo / 2024.12.18
+    	 // To display list numbers starting from 1, add 1 to i, which represents the index, and output it as i+1 - Minseo / 2024.12.18
 	}
 	
 	printf("0. Exit\n"); // "0. Exit" Create exit options by printing exit options. - Minseo/ 2024.12.11
