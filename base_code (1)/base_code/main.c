@@ -77,7 +77,8 @@ int main()
                 break;
                 
             case 3:
-            	
+            	printHealthData(&health_data);
+            	 // Output data stored in the structure to the screen - Minseo / 2024.12.18
                 break;
                 
             case 4:
