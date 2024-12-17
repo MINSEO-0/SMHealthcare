@@ -61,11 +61,14 @@ int main()
         	
         	 //An infinte loop occurs because no limit is set on the input value - Minseo / 2024.12.18
         	 //Condition setting process for input values - Minseo / 2024.12.18
+        	 
         	while(scanf("%d", &choice) != 1)
         	 //Repeat input conditions until an integer is entered - Minseo / 2024.12.18
         	{
-        		
+        		printf("Please enter the number key. \n");
+        		 //prints a message asking you to press a number key - Minseo / 2024.12.18
 			}
+			
         	printf("=======================================================================\n");
         }
         
