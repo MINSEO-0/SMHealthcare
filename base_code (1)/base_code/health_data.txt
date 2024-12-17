@@ -1,0 +1,15 @@
+[Exercises] 
+walking - 8 kcal
+pilates - 160 kcal
+walking - 144 kcal
+Total calories burned: 312 kcal
+
+[Diets] 
+tteokbokki - 615 kcal
+salad - 70 kcal
+chicken - 925 kcal
+Total calories intake: 1610 kcal
+
+[Total] 
+Basal metabolic rate: 1300 kcal
+The remaining calories: -2 kcal

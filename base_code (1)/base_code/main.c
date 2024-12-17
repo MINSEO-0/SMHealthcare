@@ -25,6 +25,7 @@ int main()
     HealthData health_data = {0};
     
     // Tocode: to read the list of the exercises and diets
+    
      //Import data from external files - Minseo / 2024.12.18
     loadExercises(EXERCISEFILEPATH);
 	 // Import exercise data from external files. - Minseo / 2024.12.18
@@ -57,7 +58,12 @@ int main()
         	printf("3. Show logged information \n");
         	printf("4. Exit \n");
         	printf("Select the desired number: ");
-        	scanf("%d", &choice);
+        	
+        	while(scanf("%d", &choice) != 1)
+        	 //Repeat input conditions until an integer is entered - Minseo / 2024.12.18
+        	{
+        		
+			}
         	printf("=======================================================================\n");
         }
         
