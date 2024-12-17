@@ -92,7 +92,8 @@ void printHealthData(const HealthData* health_data) {
     for(i = 0; i < health_data->exercise_count; i++)
      // Run iterative loops to process all data sequentially. Processes from i=0 until less than health_data->exerices_count(number of exercises) - Minseo / 2024.12.18 
     {
-    	
+    	printf("%s - %d kcal\n", health_data->exercises[i].exercise_name, health_data->exercises[i].calories_burned_per_minute);
+    	 // Displays the exercise name in the exercise array of the health_data structure and the calories burned per minute information in the exercise array of the health_data structure to the screen - Minseo / 2024.12.18
 	}
   
     printf("=======================================================================\n");
